@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const Web3 = require('web3');
 const apiKey = process.env['apiKey']
-//https://eth.getblock.io/805ec66a-2339-4f28-a4a9-020fa01015cb/sepolia/
+
 const network = 'sepolia';
 const node = "https://eth.getblock.io/$(apikey)/$(network)/"
 const web3 = new Web3(node)
